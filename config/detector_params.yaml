@@ -1,0 +1,14 @@
+/**:
+  ros__parameters:
+    # model_path: "model/best.pt"
+    detection_rate: 2 #hz
+    flower_depth: 20
+    separate_depth_stream: True
+    # rgb_topic: sensor_measurements/rgbd_camera/image_raw
+    rgb_topic: camera/color/image_raw
+    # depth_topic: sensor_measurements/rgbd_camera/depth
+    depth_camera_info_topic: camera/color/camera_info
+    depth_topic: camera/depth/image_rect_raw
+    rgbd_topic: camera/rgbd
+    publish_visualisation_markers: True
+    imshow: False
